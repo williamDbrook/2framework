@@ -1,0 +1,40 @@
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    justify-items: center;
+    align-items: start;
+}
+
+.project-card {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h2 {
+    margin: 0 0 8px 0;
+    color: #bb86fc;
+}
+
+.project-card p {
+    margin: 0 0 8px 0;
+    color: #e0e0e0;
+}
+
+.project-card a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}

@@ -6,6 +6,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import NavBar from './components/NavBar';
 import './App.css';
+import './dark-theme.css'; // Import the dark theme CSS
 
 function App() {
     return (
