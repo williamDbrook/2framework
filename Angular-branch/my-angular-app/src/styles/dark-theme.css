@@ -1,0 +1,81 @@
+:root {
+    --background-color: #121212;
+    --primary-color: #1f1f1f;
+    --secondary-color: #2c2c2c;
+    --text-color: #e0e0e0;
+    --link-color: #bb86fc;
+    --button-background-color: #333;
+    --button-text-color: #e0e0e0;
+    --button-hover-background-color: #444;
+  }
+  
+  /* Apply global styles */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--button-hover-background-color);
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: var(--primary-color);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 1em;
+    color: var(--text-color);
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: var(--link-color);
+  }
+  
+  /* Form styles */
+  form {
+    background-color: var(--secondary-color);
+    padding: 1em;
+    border-radius: 4px;
+  }
+  
+  form div {
+    margin-bottom: 1em;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    color: var(--text-color);
+  }
