@@ -1,0 +1,16 @@
+.about-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.about-container h1 {
+    color: #bb86fc;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    color: #e0e0e0;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
